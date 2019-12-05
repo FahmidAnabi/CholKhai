@@ -189,6 +189,7 @@ section {
     width: 70%;
     margin-left: 15%;
     word-spacing: 3px;
+    margin-bottom: 30px;
 }
 
 .box {
@@ -200,4 +201,44 @@ section {
     line-height: 145%;
     letter-spacing: 1px;
     word-spacing: 2px;
+}
+
+
+/* --------------------------- */
+/* Meals*/
+/* --------------------------- */
+
+.meals {
+    padding: 0; 
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meals-photo {
+    width: 100%%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meals-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.7s,  opacity 0.7s ;
+}
+
+.meals-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
 }
