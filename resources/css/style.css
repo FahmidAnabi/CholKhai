@@ -31,12 +31,11 @@ html {
 /* --------------------------- */
 
 h1,
-h2 {
+h2,
+h3 {
     
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
-   
 }
 
 h1 {
@@ -45,6 +44,7 @@ h1 {
     color: #fff;
     font-size: 260%;
     word-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -52,6 +52,12 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
 }
 
 h2::after {
@@ -167,8 +173,11 @@ header {
 /* --------------------------- */
 
 ion-icon {
+    display: block;
     font-size: 70px;
     margin-left: 60px;  
+    color: #e67e22;
+    margin-bottom: 10px;
 }
 
 section {
@@ -180,4 +189,15 @@ section {
     width: 70%;
     margin-left: 15%;
     word-spacing: 3px;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
