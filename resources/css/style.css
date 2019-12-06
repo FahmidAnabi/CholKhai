@@ -349,18 +349,19 @@ section {
     margin-bottom: 5px;
 }
 
-
 /* --------------------------- */
 /* Testimonials*/
 /* --------------------------- */
-.testimonials{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+
+.testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(img/back-customers.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
 }
 
-blockquote{
+blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 150%;
@@ -368,24 +369,28 @@ blockquote{
     margin-top: 40px;
 }
 
-blockquote:before{
+blockquote:before {
     content: "\201C";
     font-size: 500%;
     display: block;
     position: absolute;
-    top:-5;
-    left:-5;
+    top: -5;
+    left: -5;
 }
 
-cite{
+cite {
     font-size: 90%;
     margin-top: 25px;
     display: block;
 }
 
-cite img{
+cite img {
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/* --------------------------- */
+/* Plans*/
+/* --------------------------- */
