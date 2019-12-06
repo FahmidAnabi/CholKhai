@@ -21,7 +21,7 @@ html {
     content: "";
     display: table;
     clear: both;
-  }
+}
 /* --------------------------- */
 /* Reusable Components */
 /* --------------------------- */
@@ -36,26 +36,25 @@ html {
 /* --------------------------- */
 
 a:link,
-a:visited{
+a:visited {
     color: #e67e22;
     text-decoration: none;
     padding: 1x;
     border-bottom: 1px solid #e67e22;
-    transition: border-bottom 0.2s, color 0.2s ;
+    transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
-a:active{
+a:active {
     color: #555;
     border-bottom: 1px solid transparent;
-
 }
 
 /* --------------------------- */
 /* Icons */
 /* --------------------------- */
 
-.icon-big{
+.icon-big {
     display: block;
     font-size: 70px;
     margin-left: 60px;
@@ -63,8 +62,7 @@ a:active{
     margin-bottom: 10px;
 }
 
-
-.icon-small{
+.icon-small {
     display: inline-block;
     width: 30px;
     text-align: center;
@@ -77,8 +75,6 @@ a:active{
     vertical-align: middle;
     margin-top: -5px;
 }
-
-
 
 /* --------------------------- */
 /* Headings */
@@ -225,7 +221,6 @@ header {
 /* Features */
 /* --------------------------- */
 
-
 section {
     padding: 80px 0;
 }
@@ -291,7 +286,7 @@ section {
 /* --------------------------- */
 /* How it works*/
 /* --------------------------- */
-.section-steps{
+.section-steps {
     background-color: #f4f4f4;
 }
 .step-box:first-child {
@@ -313,7 +308,7 @@ section {
     margin-bottom: 50px;
 }
 
-.works-steps:last-of-type{
+.works-steps:last-of-type {
     margin-bottom: 80px;
 }
 .works-steps div {
@@ -330,10 +325,10 @@ section {
     margin-right: 25px;
 }
 .btn-app:link,
-.btn-app:visited{
+.btn-app:visited {
     border: 0;
 }
-.btn-app img{
+.btn-app img {
     height: 50px;
     width: auto;
     margin-right: 10px;
@@ -343,12 +338,12 @@ section {
 /* Cities*/
 /* --------------------------- */
 
-.box img{
+.box img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
 }
 
-.city-feature{
+.city-feature {
     margin-bottom: 5px;
 }
