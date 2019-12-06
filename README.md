@@ -1,2 +1,2 @@
-# CholKhai
- CholKhai is a web based food ordering platfrom.
+# Chol Khai
+ Chol Khai is a web based food ordering platform.
