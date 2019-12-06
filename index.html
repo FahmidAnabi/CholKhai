@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="vendors/css/normalize.css" />
-        <link rel="stylesheet" href="vendors/css/grid.css" />
-        <link rel="stylesheet" href="resources/css/style.css" />
-        <link rel="stylesheet" href="resources/css/queries.css">
+        <link rel="stylesheet" href="vendors/css/grid.css"/>
+        <link rel="stylesheet" href="vendors/css/animate.css">
+        <link rel="stylesheet" href="resources/css/style.css"/>
+        <link rel="stylesheet" href="resources/css/queries.css"/>
         <link
             href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
             rel="stylesheet"
@@ -19,11 +20,11 @@
                     <img src="https://i.ibb.co/Cb0r8x6/logo.png"" alt=" Chol
                     Khai Logo" class="logo">
                     <ul class="main-nav">
-                        <li><a href="#">Food delivery </a></li>
-                        <li><a href="#">How it works </a></li>
-                        <li><a href="#">Our cities </a></li>
-                        <li><a href="#">Sign up </a></li>
-                        <li><a href="#">Contact Us </a></li>
+                        <li><a href="#myplans">Food delivery </a></li>
+                        <li><a href="#myworks">How it works </a></li>
+                        <li><a href="#mycities">Our cities </a></li>
+                        <li><a href="#mypic">Sign up </a></li>
+                        <li><a href="#myform">Contact Us </a></li>
                     </ul>
                 </div>
             </nav>
@@ -32,11 +33,11 @@
                     Goodbye junk food.<br />
                     Hello super healthy meals.
                 </h1>
-                <a class="btn btn-full" href="#"> I’m hungry</a>
-                <a class="btn btn-ghost" href="#"> Show me more</a>
+                <a class="btn btn-full" href="#myplans"> I’m hungry</a>
+                <a class="btn btn-ghost" href="#myfeatures"> Show me more</a>
             </div>
         </header>
-        <section class="features">
+        <section class="features" id="myfeatures">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food.</h2>
                 <p class="long-copy">
@@ -91,7 +92,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-meals">
+        <section class="section-meals" id="mypic">
             <ul class="meals-showcase clearfix">
                 <li>
                     <figure class="meals-photo">
@@ -161,7 +162,7 @@
                 </li>
             </ul>
         </section>
-        <section class="section-steps">
+        <section class="section-steps" id="myworks">
             <div class="row">
                 <h2>How it works &mdash; Simple as 1, 2, 3</h2>
             </div>
@@ -208,7 +209,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-cities">
+        <section class="section-cities" id="mycities">
             <div class="row">
                 <h2>We're currently in these cities</h2>
             </div>
@@ -291,7 +292,7 @@
                 </div>
             </div>
         </section>
-        <section class="testimonials">
+        <section class="testimonials" id="mytestimonials">
             <div class="row">
                 <h2>Our customers can't live without us</h2>
             </div>
@@ -332,7 +333,7 @@
                 </div>
             </div>
         </section>
-        <section class="plans">
+        <section class="plans jq-section-plans" id="myplans">
             <div class="row">
                 <h2>Start eating healthy today</h2>
             </div>
@@ -475,7 +476,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-form">
+        <section class="section-form" id="myform">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
@@ -565,11 +566,11 @@
             <div class="row">
                 <div class="col span-1-of-2">
                     <ul class="footer-nav">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">iOS App</a></li>
-                        <li><a href="#">Android App</a></li>
+                        <li><a href="#myfeatures">About us</a></li>
+                        <li><a href="#mypic">Blog</a></li>
+                        <li><a href="#mytestimonials">Press</a></li>
+                        <li><a href="#myworks">iOS App</a></li>
+                        <li><a href="#myworks">Android App</a></li>
                     </ul>
                 </div>
                 <div class="col span-1-of-2">
@@ -617,8 +618,10 @@
                 </p>
             </div>
         </footer>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <link rel="stylesheet" href="resources/js/jquery.js">
     </body>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
 </html>
